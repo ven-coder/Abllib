@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="我是悬浮窗"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试自动循环打开辅助服务设置" />
+
+        <Button
+            android:id="@+id/btn_2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_3"
+
+            android:layout_height="wrap_content"
+            android:text="关闭服务" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_4"
+
+            android:layout_height="wrap_content"
+            android:text="关闭悬浮窗" />
+
+    </LinearLayout>
+
+</FrameLayout>
