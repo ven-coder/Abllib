@@ -101,7 +101,7 @@ AblStepHandler.sendMsg(AblSteps.STEP_1);//执行步骤，如果设置步骤间�
  
 ## over
 
- **有问题欢迎[issues](http://https://github.com/Levine1992/Abllib/issues)我** 
+ **有问题欢迎[issues](http://https://github.com/Levine1992/Abllib/issues)** 
  
 **或者wechat 1483232332** 
 
