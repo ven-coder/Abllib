@@ -9,10 +9,8 @@ import android.content.Context;
 import android.graphics.Path;
 import android.os.Build;
 import android.support.annotation.Nullable;
-import android.view.View;
 import android.view.accessibility.AccessibilityNodeInfo;
 
-import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.ScreenUtils;
 import com.levine.abllib.AblService;
 import com.levine.abllib.callback.AniCallBack;
@@ -118,7 +116,7 @@ public class AblViewUtil {
      * @return
      */
     public static AccessibilityNodeInfo findByText(AccessibilityNodeInfo parent, String text, int position) {
-        if (parent != null ) {
+        if (parent != null) {
             List<AccessibilityNodeInfo> accessibilityNodeInfos =
                     parent.findAccessibilityNodeInfosByText(text);
             if (accessibilityNodeInfos != null &&
@@ -135,7 +133,7 @@ public class AblViewUtil {
     }
 
     public static List<AccessibilityNodeInfo> findByText(AccessibilityNodeInfo parent, String text) {
-        if (parent != null ) {
+        if (parent != null) {
             List<AccessibilityNodeInfo> accessibilityNodeInfos =
                     parent.findAccessibilityNodeInfosByText(text);
             if (accessibilityNodeInfos != null &&
@@ -364,6 +362,33 @@ public class AblViewUtil {
                 new float[]{x, y},
                 100,
                 50,
+                null
+        );
+    }
+
+    public static void clickScreen(
+            float x,
+            float y
+    ) {
+        dispatch_gesture(
+                new float[]{x, y},
+                new float[]{x, y},
+                100,
+                2000,
+                null
+        );
+    }
+
+    public static void clickScreen(
+            float x,
+            float y,
+            long duration
+    ) {
+        dispatch_gesture(
+                new float[]{x, y},
+                new float[]{x, y},
+                100,
+                duration,
                 null
         );
     }

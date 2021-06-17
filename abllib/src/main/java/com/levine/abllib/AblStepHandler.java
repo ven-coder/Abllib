@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class AblStepHandler extends Handler {
 
-    private static AblStepHandler     instance;
+    private static AblStepHandler instance;
     private        List<StepListener> mStepListeners      = new ArrayList<>();
     private        boolean            isStop              = true;//是否停止
     private        String[]           mDatas;//数据

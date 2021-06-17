@@ -2,8 +2,6 @@ package com.levine.abllib.callback;
 
 import android.view.accessibility.AccessibilityNodeInfo;
 
-import java.util.List;
-
 /**
  * 2019/4/21
  * 13:05

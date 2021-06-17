@@ -1,16 +1,10 @@
 package com.levine.abllib;
 
 import android.accessibilityservice.AccessibilityService;
-import android.app.ActivityManager;
-import android.content.Context;
-import android.content.Intent;
-import android.provider.Settings;
+import android.accessibilityservice.AccessibilityServiceInfo;
 import android.view.accessibility.AccessibilityEvent;
 
 import com.blankj.utilcode.util.LogUtils;
-import com.blankj.utilcode.util.ToastUtils;
-
-import java.util.List;
 
 /**
  * 2019/4/21
@@ -41,14 +35,26 @@ public class AblService extends AccessibilityService {
     }
 
     @Override
+    protected boolean onGesture(int gestureId) {
+        return super.onGesture(gestureId);
+    }
+
+
+    @Override
     protected void onServiceConnected() {
         super.onServiceConnected();
         LogUtils.v("onServiceConnected");
+        AccessibilityServiceInfo config = new AccessibilityServiceInfo();
+        //配置监听的事件类型为界面变化|点击事件
+        config.eventTypes = AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED | AccessibilityEvent.TYPE_VIEW_CLICKED;
+        config.feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC;
+        config.flags = AccessibilityServiceInfo.FLAG_REQUEST_ENHANCED_WEB_ACCESSIBILITY;
+        setServiceInfo(config);
     }
 
     @Override
     public void onAccessibilityEvent(AccessibilityEvent event) {
-        LogUtils.v(event.getPackageName() + "");
+//        LogUtils.v(event.getPackageName() + "");
     }
 
     @Override
