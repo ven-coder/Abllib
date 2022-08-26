@@ -436,8 +436,6 @@ public class AblViewUtil {
         assert clipboardManager != null;
         clipboardManager.setPrimaryClip(clip);
         ClipData abc = clipboardManager.getPrimaryClip();
-        assert abc != null;
-        ClipData.Item item = abc.getItemAt(0);
         if (info != null) info.performAction(AccessibilityNodeInfo.ACTION_PASTE);
     }
 }
