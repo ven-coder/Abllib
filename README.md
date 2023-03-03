@@ -104,12 +104,8 @@ AblStepHandler.sendMsg(AblSteps.STEP_1);//执行步骤，如果设置步骤间�
  
 ## over
 
- **有问题欢迎[issues](http://https://github.com/Levine1992/Abllib/issues)我** 
- 
-**或者wechat 1483232332** 
+**AccessibilityService技术交流群**
+<div align="left"> <img src=https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a28513638a174267aec7ee765eed5e2f~tplv-k3u1fbpfcp-watermark.image? width=30% height=30% /> </div>
 
-![wechat](https://images.gitee.com/uploads/images/2019/0423/004159_d950eb4d_1032805.jpeg "微信图片_20190423003615的撒的撒打算.jpg")
-
-
-### 如果你觉得好，对你有过帮助，请给我一点打赏鼓励吧，一分也是爱呀！
-![alipay](https://images.gitee.com/uploads/images/2019/0423/005106_60aa66ce_1032805.jpeg "微信图片_20190423004712_WPS图片aaaaaaaaaaaaa.jpg")![wechatpay](https://images.gitee.com/uploads/images/2019/0423/005132_f8233492_1032805.jpeg "微信图片_20190423004718_WPS图片bbbbbbbb.jpg")
+如果群二维码失效可直接加我**Wechat：1483232332**拉进群
+<div align="left"> <img src=https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/837e83d96c034ad0adb2ae04f38561dd~tplv-k3u1fbpfcp-watermark.image? width=25% height=25% /> </div>
