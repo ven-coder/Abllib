@@ -101,8 +101,7 @@ AblStepHandler.getInstance().setStop(false);//开启步骤器
 AblStepHandler.sendMsg(AblSteps.STEP_1);//执行步骤，如果设置步骤间隔时间为2000，则会延迟两秒执行
 ```
 
- 
-## over
+ ***
 
 **AccessibilityService技术交流群**
 <div align="left"> <img src=https://github.com/LiQiwen-CN/Abllib/blob/master/resource/20230303103749.jpg width=30% height=30% /> </div>
