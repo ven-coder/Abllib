@@ -103,7 +103,7 @@ AblStepHandler.sendMsg(AblSteps.STEP_1);//执行步骤，如果设置步骤间�
  ***
 
 **AccessibilityService技术交流群**
-<div align="left"> <img src=https://github.com/LiQiwen-CN/Abllib/blob/master/resource/20230303103749.jpg width=30% height=30% /> </div>
+<div align="left"> <img src=https://github.com/Ven-CN/Abllib/blob/master/resource/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230403143012.jpg width=30% height=30% /> </div>
 
 如果群二维码失效可直接加我**Wechat：1483232332**拉进群
 <div align="left"> <img src=https://github.com/LiQiwen-CN/Abllib/blob/master/resource/20230303100049.jpg width=25% height=25% /> </div>
