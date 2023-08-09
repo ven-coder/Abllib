@@ -1,4 +1,4 @@
-# Abllib   
+# Abllib   （此开源库已不再维护，已重新开发更加易用稳定的库[Assists](https://github.com/ven-coder/assists)）
 
 [Demo:https://github.com/Levine1992/Abllib](https://github.com/Levine1992/Abllib)
 
